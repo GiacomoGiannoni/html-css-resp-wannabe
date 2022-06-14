@@ -140,15 +140,21 @@ img {
 
     .container {
         max-width: 480px;
-     }
-
-    .col {
-        width: 100%;
+        margin: auto;
     }
 
     .row {
         flex-direction: column;
         display: flex;
         align-items: center;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1160px) {
+    .steps{
+        max-width: 1160px;
     }
 }
